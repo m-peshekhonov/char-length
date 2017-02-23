@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type='text/css' href='index.css' />
+    <link rel="shortcut icon" href="http://yastatic.net/morda-logo/i/ya_favicon_ru.png">
+    <title>Длина символов</title>
+</head>
+<body class="page">
+  <div class="items">
+    <div class="font">
+        <div class="font__inner">
+          <div class="font__row">
+            <div class="font__cell">font-family:</div>
+            <div class="font__cell">
+                <input class="font__input input font__input_change_font input_shadow_yes" type="text" placeholder="Укажите шрифт" value="Arial, Helvetica, sans-serif"/>
+            </div>
+          </div>
+          <div class="font__row">
+            <div class="font__cell">font-size:</div>
+            <div class="font__cell">
+                <input class="font__input input font__input_change_font-size input_shadow_yes" type="text" placeholder="Укажите размер шрифта" value="13px"/>
+            </div>
+          </div>
+
+          <div class="font__row">
+            <div class="font__cell">letter-spacing:</div>
+            <div class="font__cell">
+                <input class="font__input input font__input_change_ls input_shadow_yes" type="text" placeholder="Укажите интервал между символами" value="0px"/>
+            </div>
+          </div>
+
+          <div class="font__row">
+            <div class="font__cell">Сделать жирным:</div>
+            <div class="font__cell">
+              <div class="checkbox_off checkbox_type_zhir">
+                <span class="checkbox__val"></span>
+                <div class="checkbox__checkmark"></div>
+            </div>
+            </div>
+          </div>
+
+          <div class="font__row">
+            <div class="font__cell">Сделать курсивом:</div>
+            <div class="font__cell">
+              <div class="checkbox_off checkbox_type_kursiv">
+                <span class="checkbox__val"></span>
+                <div class="checkbox__checkmark"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="some-str">
+      <div class="item__title">Произвольная строка</div>
+      <div class="table">
+        <div class="static input-box table-row">
+          <input class="input input_size_l input_type_char table-cell input_shadow_yes" type="text" placeholder="Введите строку"/>
+          <div class="result table-cell">0.0px</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="items-wrapper-nahyu">
+      <div class="item item-coll">
+        <div class="item__title">а-я</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="а"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="б"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="в"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="г"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="д"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="е"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ё"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ж"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="з"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="и"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="й"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="к"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="л"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="м"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="н"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="о"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="п"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="р"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="с"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="т"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="у"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ф"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="х"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ц"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ч"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ш"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="щ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ъ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ы"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ь"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="э"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ю"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="я"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item item-coll">
+        <div class="item__title">А-Я</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="А"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Б"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="В"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Г"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Д"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Е"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ё"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ж"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="З"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="И"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Й"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="К"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Л"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="М"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Н"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="О"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="П"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Р"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="С"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Т"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="У"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ф"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Х"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ц"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ч"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ш"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Щ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ъ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ы"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ь"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Э"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ю"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Я"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item item-coll">
+        <div class="item__title">a-z</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="a"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="b"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="c"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="d"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="e"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="f"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="g"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="h"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="i"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="j"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="k"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="l"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="m"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="n"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="o"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="p"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="q"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="r"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="s"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="t"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="u"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="v"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="w"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="x"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="y"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="z"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item item-coll">
+        <div class="item__title">A-Z</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="A"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="B"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="C"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="D"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="E"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="F"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="G"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="H"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="I"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="J"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="K"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="L"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="M"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="N"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="O"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="P"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Q"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="R"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="S"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="T"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="U"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="V"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="W"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="X"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Y"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Z"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item item-coll">
+        <div class="item__title">Символы</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="є"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="і"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ї"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ґ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ґ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="'"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ğ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ğ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="I"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ü"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ü"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ş"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ş"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ö"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ö"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ç"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ç"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ı"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="İ̇"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="â"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Â"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="î"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Î"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="û"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Û"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="é"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ұ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ғ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ғ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ө"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ң"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Қ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Һ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ү"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ұ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ө"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ң"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="қ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="һ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ү"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Җ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ҳ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ҳ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="җ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ә"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ә"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="Ä"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ä"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ß"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ẞ"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="["/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="]"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="."/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="-"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="+"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value=","/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="ю"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value='"'/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="!"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="?"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="("/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value=")"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="%"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="$"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="€"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value=";"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value=":"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="/"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="&"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="'"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="*"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="_"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="="/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="#"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="№"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="«"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="»"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="–"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="—"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="−"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="™"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="®"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="©"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="’"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="°"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁰"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="¹"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="²"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="³"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁴"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁵"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁶"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁷"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁸"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="⁹"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item item-coll item-coll-last">
+        <div class="item__title">Цифры</div>
+        <div class="table">
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="0"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="1"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="2"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="3"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="4"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="5"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="6"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="7"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="8"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+          <div class="static input-box table-row">
+            <input class="input input_type_char table-cell" type="text" placeholder="Введите символ" value="9"/>
+            <div class="result table-cell">0.0px</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div>
+
+<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+<script src="jquery.bem.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
